@@ -5,6 +5,13 @@
     
 }
 
+@font-face {
+    font-family: "Raleway", "sans-serif";
+    src: url(../Fonts/Raleway/Raleway-VariableFont_wght.ttf),
+         url(../Fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf),
+         url(../Fonts/Raleway/static/Raleway-Bold.ttf);
+}
+
 header body footer{
     background-color:#782221;
 }
