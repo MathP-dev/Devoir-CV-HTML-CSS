@@ -137,12 +137,32 @@ main{
     background-color: #782221;
 }
  
-.content h3,
-.content p,
-.content ul {
+.content h3,.content p,.content ul {
     padding: 10px;
 }
 
 section.hover-bar:hover{
     border-right:10px solid #782221;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #782221;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    gap: 15px;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo:hover{
+    opacity: 0.6;
 }
