@@ -89,6 +89,7 @@ main{
 .left_bar{
     background-color: #782221;
     color: white;
+    flex-basis: 290px;
 }
 
 .left_bar p, .left_bar ul{
@@ -105,4 +106,43 @@ main{
 
 .about_me {
     text-indent: 30px;
+}
+
+.content {
+    padding: 25px;
+    flex-basis:870px;
+    border-right: 1px solid black;
+    border-left: 50px solid #782221;
+}
+ 
+.title {
+    display: flex;
+    margin-top: 15px;
+    background-color: #dbc2a4;
+}
+ 
+.content h2 {
+ 
+    padding-left: 10px;
+    width: 100%;
+}
+ 
+.insertion {
+    width: 8px;
+    height: 30px;
+    background-color: #782221;
+}
+ 
+.title:hover .insertion {
+    background-color: #782221;
+}
+ 
+.content h3,
+.content p,
+.content ul {
+    padding: 10px;
+}
+
+section.hover-bar:hover{
+    border-right:10px solid #782221;
 }
